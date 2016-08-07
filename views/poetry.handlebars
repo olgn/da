@@ -1,0 +1,45 @@
+<div id="poetry">
+{{#is user.username 'Polygon'}}
+	<div class="panel" style='background-color:inherit; box-shadow: none; -webkit-box-shadow: none; border:none;'>
+		<a data-toggle="collapse" data-parent="#poetry" href="#newPoem" class="btn btn-success btn-lg" role="button" style='margin:7px 0px;' onclick="$(this).hide(); $(this).next('a').show();"><span class="glyphicon glyphicon-plus"></span></a>
+		<a data-toggle="collapse" data-parent="#poetry" href="#newPoem" class="btn btn-warning btn-lg" role="button" style='margin:7px 0px;display:none;' onclick="$(this).hide(); $(this).prev('a').show();"><span class="glyphicon glyphicon-minus"></span></a>
+		<form action="/newPoem" class="form collapse col-md-12" id="newPoem" method="post">
+			<fieldset class='form-group'>
+	                        <div class='col-md-6'>
+        	                        <p></p>
+                	                <label>Title:</label>
+                        	        <input type="text" name="title" class="form-control" placeholder="Never Whistle While You're Pissing"/>
+	                        </div>
+        	        </fieldset>
+			<fieldset class='form-group'>
+	                        <div class='col-md-6'>
+        	                        <p></p>
+                	                <label>Body:</label>
+                        	        <textarea name="body" class="form-control col-md-6" style="height:200px;"></textarea>
+	                        </div>
+        	        </fieldset>
+			<div class'form-group'>
+	                        <div class='col-md-6'>
+        	                        <input type="submit" class="btn btn-primary btn-sm form-control" value="Hail Eris!"/>
+                	        </div>
+	                </div>
+		</form>
+	</div>
+{{else}}
+<h1 style="text-align:center;">
+	Poetry for the massless!
+</h1>
+{{/is}}
+
+
+{{#if poems}} 
+	<div class="panel" style='background-color:inherit; box-shadow: none; -webkit-box-shadow: none; border:none;'>
+		<div id="poems" style="margin-top:30px;" class="collapse in">
+			{{#each poems}}
+				<h3>{{this.title}}</h3>
+				<p>{{this.body}}</p>
+			{{/each}}
+		</div>
+	</div>
+{{/if}}
+
