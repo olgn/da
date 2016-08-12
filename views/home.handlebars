@@ -1,6 +1,166 @@
-<div>
-
-	<p> This is the body of the home page!</p>
-	<p> Great jorb, hamstre </p>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.js"></script>
+<div id="welcome_box" class="jumbotron" style="background-color:white; padding:0px;">
+    <div class="container text-center" style="color:#4D004D">
+        <h2>
+            DIMENSIONAL_ADVENTURER
+        </h2>
+	<h4>
+	    &lt experimental_development &gt
+	</h4>
+    </div>
 </div>
+<div id="platonicNavigator" class="text-center"></div>
+
+<script src="~/Scripts/Three/Fonts/helvetiker_regular.typeface.js"></script>
+<script>
+    function platonicNavigator() {
+        "use strict";
+        var scene = new THREE.Scene(),
+            renderer = window.WebGLRenderingContext ? new THREE.WebGLRenderer() : new THREE.CanvasRenderer(),
+            light = new THREE.AmbientLight(0xffffff),
+            spot1, spot2, spot3, spot4, spot5, spots, camera, objects = [],
+            plane, tetrahedron, cube, octahedron, dodecahedron, icosahedron,
+            n_dimLabel, dataLabel, schoolLabel, webLabel, artLabel,
+            fontSize = 3, fontHeight = 0, fontType = "helvetiker", fontFloatHeight = 30,
+            wireframe = true, w, h;
+        
+        function init() {
+            w = $("#welcome_box").width();
+            h = window.outerHeight -
+                $("#welcome_box").height() - $("#navbar_container").height() - 310;
+            renderer.setSize(w, h);
+            renderer.shadowMapEnabled = true;
+            document.getElementById("platonicNavigator").appendChild(renderer.domElement);
+            renderer.setClearColor(0xffffff, 1);
+
+            scene.add(light);
+
+            addSpotlights();
+
+            camera = new THREE.PerspectiveCamera(35, w / h, 1, 1000)
+            camera.position.z = 120;
+            camera.position.y = 10;
+            scene.add(camera);
+
+            //n_dimLabel = new THREE.Mesh(
+            //    new THREE.TextGeometry("N_DIMENSIONAL", {
+            //        size: fontSize,
+            //        height: fontHeight,
+            //        font: "helvetiker"
+            //    }), 
+            //    new THREE.MeshLambertMaterial({color: 0x49006a}));
+            //n_dimLabel.position.x = -102;
+            //n_dimLabel.position.y = fontFloatHeight;
+            //scene.add(n_dimLabel);
+
+            tetrahedron = new THREE.Mesh(
+                new THREE.TetrahedronGeometry(9, 0),
+                new THREE.MeshLambertMaterial({ color: 0x49006a, wireframe: wireframe })
+                );
+            tetrahedron.position.x = -90;
+            tetrahedron.castShadow = true;
+            scene.add(tetrahedron);
+            objects.push(tetrahedron);
+
+            cube = new THREE.Mesh(
+                new THREE.CubeGeometry(10, 10, 10),
+                new THREE.MeshLambertMaterial({ color: 0x49006a, wireframe: wireframe })
+                );
+            cube.position.x = -45;
+            cube.castShadow = true;
+            scene.add(cube);
+            objects.push(cube);
+
+            octahedron = new THREE.Mesh(
+                new THREE.OctahedronGeometry(9, 0),
+                new THREE.MeshLambertMaterial({ color: 0x49006a, wireframe: wireframe })
+                );
+            octahedron.castShadow = true;
+            scene.add(octahedron);
+            objects.push(octahedron);
+
+            dodecahedron = new THREE.Mesh(
+                new THREE.DodecahedronGeometry(9, 0),
+                new THREE.MeshLambertMaterial({ color: 0x49006a, wireframe: wireframe })
+                );
+            dodecahedron.castShadow = true;
+            dodecahedron.position.x = 45;
+            scene.add(dodecahedron);
+            objects.push(dodecahedron);
+
+            icosahedron = new THREE.Mesh(
+                new THREE.IcosahedronGeometry(9, 0),
+                new THREE.MeshLambertMaterial({ color: 0x49006a, wireframe: wireframe })
+            );
+            icosahedron.position.x = 90;
+            icosahedron.castShadow = true;
+            scene.add(icosahedron);
+            objects.push(icosahedron);
+
+            for (var i = 0; i < objects.length; i++) {
+                objects[i].position.y = 15;
+            }
+
+            plane = new THREE.Mesh(new THREE.PlaneGeometry(200, 200),
+                                    new THREE.MeshPhongMaterial({
+                                    color: 0xffffff,
+                                    shading: THREE.FlatShading,
+                                    side: THREE.DoubleSide
+                                    }));
+            plane.position.y = -1;
+            plane.rotation.x = Math.PI / 2;
+            plane.receiveShadow = true;
+            scene.add(plane);
+
+            render();
+        }
+
+        function render() {
+            rotateShapes();
+            renderer.render(scene, camera);
+            requestAnimationFrame(render);
+        }
+
+        function rotateShapes() {
+            for (var i = 0; i < objects.length; i++) {
+                objects[i].rotation.x += .01;
+                objects[i].rotation.y -= (.004);
+                objects[i].rotation.z += (.002);
+                var multiplier = .1;
+            };
+        };
+
+        function addSpotlights() {
+            var intensity = .5;
+            var spotColor = 0xffffff;
+            var spotHeight = 500;
+            var spotAngle = Math.PI / 3;
+            spot1 = new THREE.SpotLight({ color: spotColor, intensity: intensity, angle: spotAngle });
+            spot1.position.set(-90, spotHeight, 0);
+            spot1.castShadow = true;
+            scene.add(spot1);
+            spot2 = new THREE.SpotLight({ color: spotColor, intensity: intensity, angle: spotAngle });
+            spot2.position.set(-45, spotHeight, 0);
+            spot2.castShadow = true;
+            scene.add(spot2);
+            spot3 = new THREE.SpotLight({ color: spotColor, intensity: intensity, angle: spotAngle });
+            spot3.position.set(0, spotHeight, 0);
+            spot3.castShadow = true;
+            scene.add(spot3);
+            spot4 = new THREE.SpotLight({ color: spotColor, intensity: intensity, angle: spotAngle });
+            spot4.position.set(45, spotHeight, 0);
+            spot4.castShadow = true;
+            scene.add(spot4);
+            spot5 = new THREE.SpotLight({ color: spotColor, intensity: intensity, angle: spotAngle });
+            spot5.position.set(90, spotHeight, 0);
+            spot5.castShadow = true;
+            scene.add(spot5);
+        }
+
+
+        window.onload = init();
+
+        return { scene: scene }
+        }
+    platonicNavigator();
+</script>

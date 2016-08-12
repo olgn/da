@@ -1,6 +1,6 @@
 <!-- views/layouts/main.handlebars -->
 <!DOCTYPE html>
-<html lang="en" ng-app="webApp">
+<html lang="en" ng-app="daApp">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
 	<meta name="author" content="">
 	
 	<title>Dimensional Adventurer</title>
-	<link href="/content/link_to_icon.png" rel="icon">
+	<link href="/content/sacredChao.png" rel="icon">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -32,9 +32,13 @@
 
 	<!-- Angular App Scripts -->
 	<script src="/ng/app.js"></script>
+
+	<!-- Site CSS -->
+	<link rel="stylesheet" href="/content/site.css">
+
 </head>
-<body ng-controller="webController">
-	<nav class="navbar navbar-default" role="navigation" style="background-color:#ffffff; ">
+<body ng-controller="daController">
+	<nav class="navbar navbar-default" role="navigation" style="background-color:#ffffff; border:none;">
 		<div class="sectionContainer" style="width:100%; margin-bottom:0px; border-left:none; border-right:none; border-top:none;">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -52,20 +56,20 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="/poetry">Poetry</a>
+						<a href="/poetry" style="display:none;">Poetry</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					{{#if user}}
 						<li>
-							<a href="/account">My Account</a>
+							<a href="/account" style="display:none;">My Account</a>
 						</li>
 						<li>
 							<a href="/logout">Log Out</a>
 						</li>
 					{{else}}
 						<li>
-							<a href="/signin">Sign In</a>
+							<a href="/signin" style="color:purple; font-size: 20px;">&#9701</a>
 						</li>
 					{{/if}}
 				</ul>

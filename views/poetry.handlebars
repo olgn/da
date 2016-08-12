@@ -1,3 +1,24 @@
+
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <style>
+        .typeWriter {
+            font-family: 'Special Elite', cursive;
+            font-weight: 400;
+            color: #b200ff;
+            font-size: large;
+            padding:30px;
+            border-bottom: solid 1px #808080;
+        }
+        .typeWriter p{
+            padding-bottom:10px;
+        }
+        .typeWriterHeader {
+            font-size: larger;
+            color: #4800ff;
+            padding-bottom:20px; 
+        }
+    </style>
+
 <div id="poetry">
 {{#is user.username 'Polygon'}}
 	<div class="panel" style='background-color:inherit; box-shadow: none; -webkit-box-shadow: none; border:none;'>
@@ -34,10 +55,10 @@
 
 {{#if poems}} 
 	<div class="panel" style='background-color:inherit; box-shadow: none; -webkit-box-shadow: none; border:none;'>
-		<div id="poems" style="margin-top:30px;" class="collapse in">
+		<div id="poems" style="margin-top:30px;" class="collapse in typeWriter">
 			{{#each poems}}
-				<h3>{{this.title}}</h3>
-				<p>{{this.body}}</p>
+				<div class="typeWriterHeader">{{this.title}}</div>
+				<div ng-bind-html="sanitize({{this.body}})"></div>
 			{{/each}}
 		</div>
 	</div>

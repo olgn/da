@@ -1,0 +1,1635 @@
+listening on 80!
+1
+50.139.43.219 - - [07/Aug/2016:02:03:28 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:03:29 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:03:29 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:03:31 +0000] "GET /poetry HTTP/1.1" 200 4613 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:03:31 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:03:31 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [07/Aug/2016:02:06:10 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:10 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:10 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:17 +0000] "GET /poetry HTTP/1.1" 304 - "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:17 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:21 +0000] "GET //path HTTP/1.1" 404 18 "http://www.dimensionaladventurer.com/path" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [07/Aug/2016:02:06:46 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:47 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:52 +0000] "GET /poetry HTTP/1.1" 304 - "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:53 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:06:53 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:07:02 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:07:02 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [07/Aug/2016:02:07:05 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:07:05 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:07:05 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [07/Aug/2016:02:08:43 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:43 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:47 +0000] "GET //poetry HTTP/1.1" 404 20 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:52 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:52 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:52 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [07/Aug/2016:02:08:56 +0000] "GET / HTTP/1.1" 304 - "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:56 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:57 +0000] "GET /poetry HTTP/1.1" 304 - "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:57 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [07/Aug/2016:02:08:58 +0000] "GET / HTTP/1.1" 304 - "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:58 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:58 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:59 +0000] "GET /poetry HTTP/1.1" 304 - "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:59 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:08:59 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:25:36 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:25:36 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+216.69.191.112 - - [07/Aug/2016:02:34:45 +0000] "GET / HTTP/1.1" 200 3252 "http://dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:34:46 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:34:46 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:34:57 +0000] "GET /poetry HTTP/1.1" 200 4613 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:34:57 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+1
+216.69.191.112 - - [07/Aug/2016:02:35:03 +0000] "GET / HTTP/1.1" 304 - "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:03 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:14 +0000] "GET /poetry HTTP/1.1" 304 - "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:14 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+1
+216.69.191.112 - - [07/Aug/2016:02:35:17 +0000] "GET / HTTP/1.1" 304 - "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:17 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:19 +0000] "GET /poetry HTTP/1.1" 304 - "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:19 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:26 +0000] "GET /poetry HTTP/1.1" 304 - "http://dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:35:26 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+1
+216.69.191.112 - - [07/Aug/2016:02:35:48 +0000] "GET / HTTP/1.1" 200 3252 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+216.69.191.112 - - [07/Aug/2016:02:35:49 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+216.69.191.112 - - [07/Aug/2016:02:35:49 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+1
+216.69.191.112 - - [07/Aug/2016:02:38:59 +0000] "GET / HTTP/1.1" 304 - "http://dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:38:59 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+1
+50.139.43.219 - - [07/Aug/2016:02:40:37 +0000] "GET / HTTP/1.1" 200 3252 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:37 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:37 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:42 +0000] "GET /poetry HTTP/1.1" 200 4613 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:42 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+216.69.191.112 - - [07/Aug/2016:02:40:43 +0000] "GET / HTTP/1.1" 200 3252 "http://dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:40:43 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+216.69.191.112 - - [07/Aug/2016:02:40:43 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://52.38.134.133/" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0"
+1
+50.139.43.219 - - [07/Aug/2016:02:40:48 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:48 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:49 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:49 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:54 +0000] "GET /signin HTTP/1.1" 200 5949 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:40:54 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+select * from users where username = 'polygon';
+printing selectSingle result...
+[ { id: 1,
+    username: 'Polygon',
+    password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+    last_login: null } ]
+selectSingleResults
+[ { id: 1,
+    username: 'Polygon',
+    password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+    last_login: null } ]
+username already exists
+50.139.43.219 - - [07/Aug/2016:02:43:12 +0000] "POST /local-reg HTTP/1.1" 302 70 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:43:12 +0000] "GET /signin HTTP/1.1" 200 6025 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [07/Aug/2016:02:43:12 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+select * from users where username = 'polygon';
+printing selectSingle result...
+[ { id: 1,
+    username: 'Polygon',
+    password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+    last_login: null } ]
+FOUND USER
+$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu
+false
+LOGGED IN AS: Polygon
+serializing Polygon
+50.139.43.219 - - [07/Aug/2016:02:43:21 +0000] "POST /login HTTP/1.1" 302 58 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [07/Aug/2016:02:43:21 +0000] "GET / HTTP/1.1" 200 3397 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [07/Aug/2016:02:43:21 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [07/Aug/2016:02:43:23 +0000] "GET /poetry HTTP/1.1" 200 6300 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [07/Aug/2016:02:43:23 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+req:
+{ _readableState: 
+   { highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: false,
+     ended: true,
+     endEmitted: true,
+     reading: false,
+     calledRead: true,
+     sync: false,
+     needReadable: true,
+     emittedReadable: false,
+     readableListening: false,
+     objectMode: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: false,
+  domain: null,
+  _events: { readable: [Function] },
+  _maxListeners: 10,
+  socket: 
+   { _connecting: false,
+     _handle: 
+      { fd: 17,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _readableState: 
+      { highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: false,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        calledRead: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        objectMode: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object] },
+     _maxListeners: 10,
+     _writableState: 
+      { highWaterMark: 16384,
+        objectMode: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        buffer: [],
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     onend: [Function],
+     destroyed: false,
+     bytesRead: 3648,
+     _bytesDispatched: 1215,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _connections: 5,
+        connections: [Getter/Setter],
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        allowHalfOpen: true,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _connectionKey: '4:0.0.0.0:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 586,
+        _bytesDispatched: 244,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1470537803975,
+        _monotonicStartTime: 19691440,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: null },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1470537816197,
+     _monotonicStartTime: 19703662,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function] },
+     ondata: [Function],
+     _paused: false,
+     _httpMessage: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _headerSent: false,
+        _header: '',
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _hangupClose: false,
+        socket: [Circular],
+        connection: [Circular],
+        _headers: [Object],
+        _headerNames: [Object],
+        req: [Circular],
+        locals: {},
+        _startAt: undefined,
+        _startTime: undefined,
+        writeHead: [Function: writeHead],
+        __onFinished: [Object],
+        end: [Function: end] },
+     _peername: { address: '50.139.43.219', family: 'IPv4', port: 59715 } },
+  connection: 
+   { _connecting: false,
+     _handle: 
+      { fd: 17,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _readableState: 
+      { highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: false,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        calledRead: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        objectMode: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object] },
+     _maxListeners: 10,
+     _writableState: 
+      { highWaterMark: 16384,
+        objectMode: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        buffer: [],
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     onend: [Function],
+     destroyed: false,
+     bytesRead: 3648,
+     _bytesDispatched: 1215,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _connections: 5,
+        connections: [Getter/Setter],
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        allowHalfOpen: true,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _connectionKey: '4:0.0.0.0:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 586,
+        _bytesDispatched: 244,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1470537803975,
+        _monotonicStartTime: 19691440,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: null },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1470537816197,
+     _monotonicStartTime: 19703662,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function] },
+     ondata: [Function],
+     _paused: false,
+     _httpMessage: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _headerSent: false,
+        _header: '',
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _hangupClose: false,
+        socket: [Circular],
+        connection: [Circular],
+        _headers: [Object],
+        _headerNames: [Object],
+        req: [Circular],
+        locals: {},
+        _startAt: undefined,
+        _startTime: undefined,
+        writeHead: [Function: writeHead],
+        __onFinished: [Object],
+        end: [Function: end] },
+     _peername: { address: '50.139.43.219', family: 'IPv4', port: 59715 } },
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { host: 'www.dimensionaladventurer.com',
+     connection: 'keep-alive',
+     'content-length': '27',
+     'cache-control': 'max-age=0',
+     origin: 'http://www.dimensionaladventurer.com',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+     'content-type': 'application/x-www-form-urlencoded',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     referer: 'http://www.dimensionaladventurer.com/poetry',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'en-US,en;q=0.8',
+     cookie: 'connect.sid=s%3AB7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY.o9YtTeTzBmVxf0lJw%2BFwv4R53dSjNo8jpNH94htz87w' },
+  trailers: {},
+  _pendings: [],
+  _pendingIndex: 0,
+  url: '/newPoem',
+  method: 'POST',
+  statusCode: null,
+  client: 
+   { _connecting: false,
+     _handle: 
+      { fd: 17,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _readableState: 
+      { highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: false,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        calledRead: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        objectMode: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object] },
+     _maxListeners: 10,
+     _writableState: 
+      { highWaterMark: 16384,
+        objectMode: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        buffer: [],
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     onend: [Function],
+     destroyed: false,
+     bytesRead: 3648,
+     _bytesDispatched: 1215,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _connections: 5,
+        connections: [Getter/Setter],
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        allowHalfOpen: true,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _connectionKey: '4:0.0.0.0:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 586,
+        _bytesDispatched: 244,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1470537803975,
+        _monotonicStartTime: 19691440,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: null },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1470537816197,
+     _monotonicStartTime: 19703662,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Circular],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function] },
+     ondata: [Function],
+     _paused: false,
+     _httpMessage: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        output: [],
+        outputEncodings: [],
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _headerSent: false,
+        _header: '',
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _hangupClose: false,
+        socket: [Circular],
+        connection: [Circular],
+        _headers: [Object],
+        _headerNames: [Object],
+        req: [Circular],
+        locals: {},
+        _startAt: undefined,
+        _startTime: undefined,
+        writeHead: [Function: writeHead],
+        __onFinished: [Object],
+        end: [Function: end] },
+     _peername: { address: '50.139.43.219', family: 'IPv4', port: 59715 } },
+  _consuming: true,
+  _dumped: false,
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  upgrade: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/newPoem',
+  _parsedUrl: 
+   { protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/newPoem',
+     path: '/newPoem',
+     href: '/newPoem',
+     _raw: '/newPoem' },
+  params: {},
+  query: {},
+  res: 
+   { domain: null,
+     _events: { finish: [Object], end: [Function: onevent] },
+     _maxListeners: 10,
+     output: [],
+     outputEncodings: [],
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _headerSent: false,
+     _header: '',
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _hangupClose: false,
+     socket: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 3648,
+        _bytesDispatched: 1215,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 1470537816197,
+        _monotonicStartTime: 19703662,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     connection: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 3648,
+        _bytesDispatched: 1215,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 1470537816197,
+        _monotonicStartTime: 19703662,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     _headers: { 'x-powered-by': 'Express', vary: 'X-HTTP-Method-Override' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By', vary: 'Vary' },
+     req: [Circular],
+     locals: {},
+     _startAt: undefined,
+     _startTime: undefined,
+     writeHead: [Function: writeHead],
+     __onFinished: { [Function: listener] queue: [Object] },
+     end: [Function: end] },
+  _startAt: [ 19703, 662621593 ],
+  _startTime: Sun Aug 07 2016 02:43:36 GMT+0000 (UTC),
+  _remoteAddress: '50.139.43.219',
+  secret: undefined,
+  cookies: { 'connect.sid': 's:B7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY.o9YtTeTzBmVxf0lJw+Fwv4R53dSjNo8jpNH94htz87w' },
+  signedCookies: {},
+  body: { title: 'once', body: 'upon a time' },
+  _body: true,
+  length: undefined,
+  pipe: [Function],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  pause: [Function],
+  resume: [Function],
+  read: [Function],
+  originalMethod: 'POST',
+  _parsedOriginalUrl: 
+   { protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/newPoem',
+     path: '/newPoem',
+     href: '/newPoem',
+     _raw: '/newPoem' },
+  sessionStore: 
+   { domain: null,
+     _events: 
+      { disconnect: [Function: ondisconnect],
+        connect: [Function: onconnect] },
+     _maxListeners: 10,
+     sessions: 
+      { efVvvRGOiEcwKrdIzEeCIeS7PidhZ8x3: '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"}}',
+        fsZzGHDLvJHSHy6XCBfqICXFqkmwaSrk: '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"}}',
+        'qks12pTAz_PQL-MPJmDUZXIvfHqlruhf': '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"}}',
+        'B7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY': '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"},"passport":{"user":{"id":1,"username":"Polygon","password":"$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu","last_login":null}}}',
+        '2PUlZXRBZ9qMz62Z_L0TiUYkS4NuYi_R': '{"cookie":{"originalMaxAge":null,"expires":null,"httpOnly":true,"path":"/"}}' },
+     generate: [Function] },
+  sessionID: 'B7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY',
+  session: 
+   { cookie: 
+      { path: '/',
+        _expires: null,
+        originalMaxAge: null,
+        httpOnly: true },
+     passport: { user: [Object] } },
+  _passport: 
+   { instance: 
+      { _key: 'passport',
+        _strategies: [Object],
+        _serializers: [Object],
+        _deserializers: [Object],
+        _infoTransformers: [],
+        _framework: [Object],
+        _userProperty: 'user',
+        Authenticator: [Function: Authenticator],
+        Passport: [Function: Authenticator],
+        Strategy: [Object],
+        strategies: [Object] },
+     session: { user: [Object] } },
+  user: 
+   { id: 1,
+     username: 'Polygon',
+     password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+     last_login: null },
+  route: 
+   { path: '/newPoem',
+     stack: [ [Object] ],
+     methods: { post: true } } }
+res:
+{ domain: null,
+  _events: 
+   { finish: [ [Function], [Function: onevent] ],
+     end: [Function: onevent] },
+  _maxListeners: 10,
+  output: [],
+  outputEncodings: [],
+  writable: true,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _headerSent: false,
+  _header: '',
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _hangupClose: false,
+  socket: 
+   { _connecting: false,
+     _handle: 
+      { fd: 17,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _readableState: 
+      { highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: false,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        calledRead: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        objectMode: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object] },
+     _maxListeners: 10,
+     _writableState: 
+      { highWaterMark: 16384,
+        objectMode: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        buffer: [],
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     onend: [Function],
+     destroyed: false,
+     bytesRead: 3648,
+     _bytesDispatched: 1215,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _connections: 5,
+        connections: [Getter/Setter],
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        allowHalfOpen: true,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _connectionKey: '4:0.0.0.0:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 586,
+        _bytesDispatched: 244,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1470537803975,
+        _monotonicStartTime: 19691440,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: null },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1470537816197,
+     _monotonicStartTime: 19703662,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function] },
+     ondata: [Function],
+     _paused: false,
+     _httpMessage: [Circular],
+     _peername: { address: '50.139.43.219', family: 'IPv4', port: 59715 } },
+  connection: 
+   { _connecting: false,
+     _handle: 
+      { fd: 17,
+        writeQueueSize: 0,
+        owner: [Circular],
+        onread: [Function: onread],
+        reading: true },
+     _readableState: 
+      { highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: false,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        calledRead: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        objectMode: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Object],
+        close: [Object] },
+     _maxListeners: 10,
+     _writableState: 
+      { highWaterMark: 16384,
+        objectMode: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        buffer: [],
+        errorEmitted: false },
+     writable: true,
+     allowHalfOpen: true,
+     onend: [Function],
+     destroyed: false,
+     bytesRead: 3648,
+     _bytesDispatched: 1215,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _connections: 5,
+        connections: [Getter/Setter],
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        allowHalfOpen: true,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _connectionKey: '4:0.0.0.0:80' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 586,
+        _bytesDispatched: 244,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 1470537803975,
+        _monotonicStartTime: 19691440,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: null },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 1470537816197,
+     _monotonicStartTime: 19703662,
+     parser: 
+      { _headers: [],
+        _url: '',
+        onHeaders: [Function: parserOnHeaders],
+        onHeadersComplete: [Function: parserOnHeadersComplete],
+        onBody: [Function: parserOnBody],
+        onMessageComplete: [Function: parserOnMessageComplete],
+        socket: [Circular],
+        incoming: [Object],
+        maxHeaderPairs: 2000,
+        onIncoming: [Function] },
+     ondata: [Function],
+     _paused: false,
+     _httpMessage: [Circular],
+     _peername: { address: '50.139.43.219', family: 'IPv4', port: 59715 } },
+  _headers: { 'x-powered-by': 'Express', vary: 'X-HTTP-Method-Override' },
+  _headerNames: { 'x-powered-by': 'X-Powered-By', vary: 'Vary' },
+  req: 
+   { _readableState: 
+      { highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: false,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        calledRead: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        objectMode: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: { readable: [Function] },
+     _maxListeners: 10,
+     socket: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 3648,
+        _bytesDispatched: 1215,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 1470537816197,
+        _monotonicStartTime: 19703662,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     connection: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 3648,
+        _bytesDispatched: 1215,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 1470537816197,
+        _monotonicStartTime: 19703662,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { host: 'www.dimensionaladventurer.com',
+        connection: 'keep-alive',
+        'content-length': '27',
+        'cache-control': 'max-age=0',
+        origin: 'http://www.dimensionaladventurer.com',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        referer: 'http://www.dimensionaladventurer.com/poetry',
+        'accept-encoding': 'gzip, deflate',
+        'accept-language': 'en-US,en;q=0.8',
+        cookie: 'connect.sid=s%3AB7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY.o9YtTeTzBmVxf0lJw%2BFwv4R53dSjNo8jpNH94htz87w' },
+     trailers: {},
+     _pendings: [],
+     _pendingIndex: 0,
+     url: '/newPoem',
+     method: 'POST',
+     statusCode: null,
+     client: 
+      { _connecting: false,
+        _handle: [Object],
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        onend: [Function],
+        destroyed: false,
+        bytesRead: 3648,
+        _bytesDispatched: 1215,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 1470537816197,
+        _monotonicStartTime: 19703662,
+        parser: [Object],
+        ondata: [Function],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object] },
+     _consuming: true,
+     _dumped: false,
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     upgrade: false,
+     next: [Function: next],
+     baseUrl: '',
+     originalUrl: '/newPoem',
+     _parsedUrl: 
+      { protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/newPoem',
+        path: '/newPoem',
+        href: '/newPoem',
+        _raw: '/newPoem' },
+     params: {},
+     query: {},
+     res: [Circular],
+     _startAt: [ 19703, 662621593 ],
+     _startTime: Sun Aug 07 2016 02:43:36 GMT+0000 (UTC),
+     _remoteAddress: '50.139.43.219',
+     secret: undefined,
+     cookies: { 'connect.sid': 's:B7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY.o9YtTeTzBmVxf0lJw+Fwv4R53dSjNo8jpNH94htz87w' },
+     signedCookies: {},
+     body: { title: 'once', body: 'upon a time' },
+     _body: true,
+     length: undefined,
+     pipe: [Function],
+     addListener: [Function: addListener],
+     on: [Function: addListener],
+     pause: [Function],
+     resume: [Function],
+     read: [Function],
+     originalMethod: 'POST',
+     _parsedOriginalUrl: 
+      { protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/newPoem',
+        path: '/newPoem',
+        href: '/newPoem',
+        _raw: '/newPoem' },
+     sessionStore: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        sessions: [Object],
+        generate: [Function] },
+     sessionID: 'B7HBRz1BnF3kUaHk2cGApb1vP-AnE4SY',
+     session: { cookie: [Object], passport: [Object] },
+     _passport: { instance: [Object], session: [Object] },
+     user: 
+      { id: 1,
+        username: 'Polygon',
+        password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+        last_login: null },
+     route: { path: '/newPoem', stack: [Object], methods: [Object] } },
+  locals: {},
+  _startAt: undefined,
+  _startTime: undefined,
+  writeHead: [Function: writeHead],
+  __onFinished: { [Function: listener] queue: [ [Function: logRequest] ] },
+  end: [Function: end] }
+sucessfully added poem!
+50.139.43.219 - - [07/Aug/2016:02:43:36 +0000] "POST /newPoem HTTP/1.1" 200 6341 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [07/Aug/2016:02:43:36 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/newPoem" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [07/Aug/2016:02:43:36 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/newPoem" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/ec2-user/da/node_modules/mysql/lib/protocol/Protocol.js:109:13)
+    at Socket.<anonymous> (/home/ec2-user/da/node_modules/mysql/lib/Connection.js:115:28)
+    at Socket.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:448:13)
+listening on 80!
+1
+50.139.43.219 - - [09/Aug/2016:01:41:12 +0000] "GET / HTTP/1.1" 200 3252 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:41:13 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:41:13 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:44:34 +0000] "GET /poetry HTTP/1.1" 200 4654 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:44:34 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:47:38 +0000] "GET /poetry HTTP/1.1" 200 3525 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:47:38 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:47:42 +0000] "GET /signin HTTP/1.1" 200 5949 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:47:42 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:52:23 +0000] "GET /poetry HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:52:23 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:01:52:23 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+66.249.64.167 - - [09/Aug/2016:02:11:24 +0000] "GET /robots.txt HTTP/1.1" 404 23 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+1
+66.249.64.161 - - [09/Aug/2016:02:11:24 +0000] "GET / HTTP/1.1" 200 3252 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.64.167 - - [09/Aug/2016:02:12:47 +0000] "GET /poetry HTTP/1.1" 200 3525 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.64.161 - - [09/Aug/2016:02:12:52 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://dimensionaladventurer.com/poetry" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.64.167 - - [09/Aug/2016:02:16:39 +0000] "GET /signin HTTP/1.1" 200 5949 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+1
+50.139.43.219 - - [09/Aug/2016:02:19:42 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:19:42 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:19:43 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:19:44 +0000] "GET /poetry HTTP/1.1" 200 4135 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:19:44 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:21:26 +0000] "GET /poetry HTTP/1.1" 200 4135 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:21:27 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:21:27 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:24:59 +0000] "GET /poetry HTTP/1.1" 200 4151 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:24:59 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:24:59 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:25:14 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:25:14 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:25:15 +0000] "GET /ng/app.js HTTP/1.1" 404 22 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.listen (/home/ec2-user/da/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ec2-user/da/server.js:219:18)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+50.139.43.219 - - [09/Aug/2016:02:32:24 +0000] "GET /poetry HTTP/1.1" 200 4149 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:33:43 +0000] "GET /poetry HTTP/1.1" 200 4164 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:33:51 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:37:15 +0000] "GET /poetry HTTP/1.1" 200 4149 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:39:10 +0000] "GET /poetry HTTP/1.1" 200 4153 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:39:52 +0000] "GET /poetry HTTP/1.1" 200 4155 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [09/Aug/2016:02:40:03 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+listening on 80!
+1
+50.139.43.219 - - [11/Aug/2016:17:41:17 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:41:17 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:41:18 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:41:22 +0000] "GET /poetry HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:17:41:27 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:41:28 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:41:28 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:17:49:44 +0000] "GET / HTTP/1.1" 200 9555 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:49:44 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:49:44 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:17:50:36 +0000] "GET / HTTP/1.1" 200 9594 "http://www.dimensionaladventurer.com/poetry" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:50:37 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:50:37 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:50:42 +0000] "GET /signin HTTP/1.1" 200 5985 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:51:20 +0000] "GET /signin HTTP/1.1" 200 5991 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:51:41 +0000] "GET /signin HTTP/1.1" 200 6009 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:52:53 +0000] "GET /signin HTTP/1.1" 200 5894 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:55:27 +0000] "GET /signin HTTP/1.1" 200 6007 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:58:19 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:17:59:49 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:00:56 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:01:44 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:04:43 +0000] "GET /signin HTTP/1.1" 200 6205 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:10:13 +0000] "GET /signin HTTP/1.1" 200 6259 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:10:31 +0000] "GET /signin HTTP/1.1" 200 6271 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:10:39 +0000] "GET /signin HTTP/1.1" 200 6270 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:11:00 +0000] "GET /signin HTTP/1.1" 200 6269 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:11:35 +0000] "GET /signin HTTP/1.1" 200 6335 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:15:30 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:17:16 +0000] "GET /signin HTTP/1.1" 200 6406 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:18:48 +0000] "GET /signin HTTP/1.1" 200 6272 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:19:21 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:19:51 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:20:08 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:20:58 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:22:30 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:26:02 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:26:21 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:26:49 +0000] "GET /signin HTTP/1.1" 200 6167 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:27:22 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:28:49 +0000] "POST /login HTTP/1.1" 302 70 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:28:49 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:29:42 +0000] "GET /signin HTTP/1.1" 200 6168 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:31:25 +0000] "GET /signin HTTP/1.1" 200 6277 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:34:15 +0000] "GET /signin HTTP/1.1" 200 6280 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:35:17 +0000] "GET /signin HTTP/1.1" 200 6278 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:35:50 +0000] "GET /signin HTTP/1.1" 200 6277 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+select * from users where username = 'Polygon';
+printing selectSingle result...
+[ { id: 1,
+    username: 'Polygon',
+    password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+    last_login: null } ]
+FOUND USER
+$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu
+false
+LOGGED IN AS: Polygon
+serializing Polygon
+50.139.43.219 - - [11/Aug/2016:18:36:03 +0000] "POST /login HTTP/1.1" 302 58 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:36:03 +0000] "GET / HTTP/1.1" 200 9772 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:36:03 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:36:04 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:38:34 +0000] "GET / HTTP/1.1" 200 9691 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:38:34 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:38:35 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+LOGGING OUT Polygon
+50.139.43.219 - - [11/Aug/2016:18:38:36 +0000] "GET /logout HTTP/1.1" 302 58 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:38:36 +0000] "GET / HTTP/1.1" 200 9665 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:38:36 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:38:36 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:38:37 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+select * from users where username = 'Polygon';
+printing selectSingle result...
+[ { id: 1,
+    username: 'Polygon',
+    password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+    last_login: null } ]
+FOUND USER
+$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu
+false
+LOGGED IN AS: Polygon
+serializing Polygon
+50.139.43.219 - - [11/Aug/2016:18:38:50 +0000] "POST /login HTTP/1.1" 302 58 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:38:50 +0000] "GET / HTTP/1.1" 200 9772 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:38:50 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:38:51 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:40:16 +0000] "GET / HTTP/1.1" 200 9691 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:40:16 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [11/Aug/2016:18:40:17 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+LOGGING OUT Polygon
+50.139.43.219 - - [11/Aug/2016:18:42:37 +0000] "GET /logout HTTP/1.1" 302 58 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:42:37 +0000] "GET / HTTP/1.1" 200 9665 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:42:37 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:42:38 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:43:59 +0000] "GET / HTTP/1.1" 200 9677 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:44:00 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:44:01 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:45:56 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:45:56 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:45:57 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:47:06 +0000] "GET / HTTP/1.1" 200 9716 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:47:06 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:47:35 +0000] "GET / HTTP/1.1" 200 9722 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:47:36 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:47:36 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:47:47 +0000] "GET / HTTP/1.1" 200 9724 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:47:47 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:47:59 +0000] "GET / HTTP/1.1" 200 9724 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:47:59 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:48:00 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:49:58 +0000] "GET / HTTP/1.1" 200 9727 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:49:59 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:49:59 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:50:05 +0000] "GET / HTTP/1.1" 200 9728 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:05 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:05 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:50:23 +0000] "GET / HTTP/1.1" 200 9728 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:23 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:23 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:50:55 +0000] "GET / HTTP/1.1" 200 9750 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:55 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:56 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:50:57 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:57 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:50:57 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:51:53 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:51:53 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:51:54 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:52:24 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:52:24 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:52:24 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:52:28 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:52:28 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:52:28 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:53:06 +0000] "GET / HTTP/1.1" 200 9772 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:53:06 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:18:56:19 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:56:19 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:18:56:19 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:19:01:11 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:19:01:11 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:19:01:28 +0000] "GET /signin HTTP/1.1" 200 6311 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:19:01:34 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [11/Aug/2016:19:01:35 +0000] "GET / HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [11/Aug/2016:19:01:35 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+66.249.69.16 - - [11/Aug/2016:21:29:57 +0000] "GET /robots.txt HTTP/1.1" 404 23 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+1
+66.249.69.24 - - [11/Aug/2016:21:29:58 +0000] "GET / HTTP/1.1" 200 9772 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.69.20 - - [11/Aug/2016:21:30:05 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://dimensionaladventurer.com/" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+1
+185.93.185.10 - - [11/Aug/2016:21:57:45 +0000] "GET / HTTP/1.1" 200 9772 "-" "Scanbot"
+1
+66.249.69.20 - - [11/Aug/2016:22:22:30 +0000] "GET / HTTP/1.1" 200 9772 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+1
+66.249.69.20 - - [12/Aug/2016:00:50:49 +0000] "GET / HTTP/1.1" 200 9772 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+1
+191.101.1.212 - - [12/Aug/2016:01:18:08 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+191.101.1.212 - - [12/Aug/2016:01:18:09 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+191.101.1.212 - - [12/Aug/2016:01:18:09 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+db error { [Error: Connection lost: The server closed the connection.] fatal: true, code: 'PROTOCOL_CONNECTION_LOST' }
+1
+71.6.167.142 - - [12/Aug/2016:03:14:39 +0000] "GET / HTTP/1.1" 200 9772 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+71.6.167.142 - - [12/Aug/2016:03:14:39 +0000] "GET /robots.txt HTTP/1.1" 404 23 "-" "-"
+71.6.167.142 - - [12/Aug/2016:03:14:39 +0000] "GET /sitemap.xml HTTP/1.1" 404 24 "-" "-"
+1
+191.101.1.212 - - [12/Aug/2016:04:16:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+191.101.1.212 - - [12/Aug/2016:04:16:23 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+191.101.1.212 - - [12/Aug/2016:04:16:23 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+191.101.1.212 - - [12/Aug/2016:04:17:06 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+191.101.1.212 - - [12/Aug/2016:04:17:06 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+191.101.1.212 - - [12/Aug/2016:04:17:07 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [12/Aug/2016:04:31:33 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:04:31:33 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [12/Aug/2016:07:15:04 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:07:15:04 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [12/Aug/2016:07:24:04 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:07:24:05 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:07:24:05 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+1
+50.139.43.219 - - [12/Aug/2016:07:25:40 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:07:25:40 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:07:25:40 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+50.139.43.219 - - [12/Aug/2016:07:25:47 +0000] "GET /signin HTTP/1.1" 304 - "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+select * from users where username = 'Polygon';
+printing selectSingle result...
+[ { id: 1,
+    username: 'Polygon',
+    password: '$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu',
+    last_login: null } ]
+FOUND USER
+$2a$08$FOtosPm4OZV.Ofu2WzCPHO3WJMlNghj4MSf/AS10/rAZWfF40nlMu
+false
+LOGGED IN AS: Polygon
+serializing Polygon
+50.139.43.219 - - [12/Aug/2016:07:26:14 +0000] "POST /login HTTP/1.1" 302 58 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:14 +0000] "GET / HTTP/1.1" 200 9879 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:15 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:15 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:51 +0000] "GET / HTTP/1.1" 200 9798 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:51 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:51 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:53 +0000] "GET /account HTTP/1.1" 404 20 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:53 +0000] "GET /favicon.ico HTTP/1.1" 404 24 "http://www.dimensionaladventurer.com/account" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:55 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:26:55 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:27:45 +0000] "GET / HTTP/1.1" 200 9820 "http://www.dimensionaladventurer.com/signin" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:27:46 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+deserializing [object Object]
+50.139.43.219 - - [12/Aug/2016:07:27:46 +0000] "GET /~/Scripts/Three/Fonts/helvetiker_regular.typeface.js HTTP/1.1" 404 65 "http://www.dimensionaladventurer.com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"

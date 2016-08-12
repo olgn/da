@@ -1,14 +1,13 @@
 <!-- views/signin.handlebars -->
-<div class="jumbotron">
-	<h1>Portals DO exist!</h1>
-	<p>Fnord into the fnord using your fnord.</p>
+<div class="jumbotron" style="background-color:inherit;text-align:center;">
+	<p>Activate the fnord using your credentials!</p>
 
 	<p>Query: There is no Goddess but...</p>
 	<div id="permissions">
 	<p>
 
-		<a data-toggle="collapse" data-parent="#permissions" href="#local" class="btn btn-warning btn-lg" role="button" style='margin:7px 0px;'><span class="glyphicon glyphicon-user"></span> Goddess</a>
-		<a data-toggle="collapse" data-parent="#permissions" href="#hell" class="btn btn-warning btn-lg" role="button" style='margin:7px 0px;'><span class="glyphicon glyphicon-user"></span> Trump </a>
+		<a data-toggle="collapse" data-parent="#permissions" href="#local" class="btn btn-lg purpleButton" role="button"> Goddess</a>
+		<a data-toggle="collapse" data-parent="#permissions" href="#hell" class="btn btn-lg purpleButton" role="button">Drunvalo</a>
 	</p>
 	<div class="panel" style='background-color:inherit; box-shadow: none; -webkit-box-shadow: none; border:none;'>
 		<div id="hell" class="collapse">
@@ -17,52 +16,52 @@
 	</div>
 	<div class="panel" style='background-color:inherit; box-shadow: none; -webkit-box-shadow: none; border:none;'>
 		<div id="local" class="collapse">
-			<a data-toggle="collapse" href="#local-sign-in" class="btn btn-default btn-md" role="button" onclick="$('#local-reg').removeClass('in');">I gots tha fnord.</a>
-			<a data-toggle="collapse" href="#local-reg" class="btn btn-default btn-md" role="button" onclick="$('#local-sign-in').removeClass('in');">Hath no fnord?</a>
+			<a data-toggle="collapse" href="#local-sign-in" class="btn btn-default btn-md whiteButton" role="button"  onclick="$('#local-reg').removeClass('in');">Verified Pope</a>
+			<a data-toggle="collapse" href="#local-reg" class="btn btn-default btn-md whiteButton" role="button" onclick="$('#local-sign-in').removeClass('in');">Prospective Pope</a>
 		</div>
 	</div>
 	</div>
 	<form id="local-sign-in" class="form collapse" action="/login" method="post">
 		<fieldset class='form-group'>
-			<div class='col-md-6'>
+			<div class='col-md-6' style="float:none; margin:auto;">
 				<p></p>
 				<label>Title:</label>
-				<input type="text" name="username" class="form-control" placeholder="Hagbard.Celine@Neverwhistlewhileyourepissing.goo"/>
+				<input type="text" name="username" class="form-control" style="text-align:center;" placeholder="Hagbard.Celine@Neverwhistlewhileyourepissing.goo"/>
 			</div>
 		</fieldset>
 		
 		<fieldset class='form-group'>
-			<div class='col-md-6'>
+			<div class='col-md-6' style="float:none; margin:auto;">
 				<label>Cabbage-Thwarter:</label>
-				<input type="password" name="password" class='form-control' placeholder="***//..\/..\\***"/>
+				<input type="password" name="password" class='form-control' style="text-align:center;" placeholder="***//..\/..\\***"/>
 			</div>
 		</fieldset>
 
 		<div class'form-group'>
-			<div class='col-md-6'>
-				<input type="submit" class="btn btn-primary btn-sm form-control" value="Hail Eris!"/>
+			<div class='col-md-6' style="float:none; margin:auto;">
+				<input type="submit" class="btn btn-sm form-control purpleButton" value="Hail Eris!"/>
 			</div>
 		</div>
 	</form>
 
 	<form id="local-reg" class="collapse" action="/local-reg" method="post">
 		<fieldset class='form-group'>
-			<div class='col-md-6'>
+			<div class='col-md-6' style="float:none; margin:auto;">
 				<p></p>
 				<label>Novel Title:</label>
-				<input type="text" name="username" class="form-control" placeholder="Donnie@Office.of.My.High.Reverence.the.Polyfather.swoosh"/>
+				<input type="text" name="username" class="form-control" style="text-align:center;" placeholder="Donnie@Office.of.My.High.Reverence.the.Polyfather.swoosh"/>
 			</div>
 		</fieldset>
 		<fieldset class='form-group'>
-			<div class='col-md-6'>
+			<div class='col-md-6' style="float:none; margin:auto;">
 				<label>The same secret words you use for everything:</label>
-				<input type="password" name="password" class='form-control' placeholder="(>^.^)> .....//\\..... <(^.^<)"/>
+				<input type="password" name="password" class='form-control' style="text-align:center;" placeholder="(>^.^)> .....//\\..... <(^.^<)"/>
 			</div>
 		</fieldset>
 
 		<div class'form-group'>
-			<div class='col-md-6'>
-				<input type="submit" class="btn btn-primary btn-sm form-control" value="Fnord me up, Scotty!"/>
+			<div class='col-md-6' style="float:none; margin:auto;">
+				<input type="submit" class="btn btn-sm form-control purpleButton" value="Pope me up, Scotty!"/>
 			</div>
 		</div>
 	</form>
