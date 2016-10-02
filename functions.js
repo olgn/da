@@ -78,6 +78,37 @@ exports.createPoem = function(title, body, callback) {
 		}
 	});
 };
+
+exports.addWordToBag = function(word, callback) {
+	var deferred = Q.defer();
+	console.log('the word passed to addWord is:');
+	console.log(word);
+	var insertWordQuery = mysql_connection.query('INSERT INTO wordBag (word) VALUES (?)', word, function(err) {
+		if (err) {
+			console.log(err);
+			console.log(insertWordQuery);
+			callback(err);
+		} else {
+			console.log('successfullay added word to bag!');
+			callback(null);
+		}
+	});
+
+}
+
+exports.getWordBag = function(callback) {
+	var deferred = Q.defer();
+	var selectBagQuery = mysql_connection.query('SELECT * FROM wordBag', function(err, wordBag) {
+		if (err) {
+			console.log(err);
+			console.log(selectBagQuery);
+			callback(err, null);
+		} else {
+			callback(null, wordBag);
+		}
+
+	})
+}
 //==========user functions===============\\
 function selectSingle(table, keyName, key, callback) {
 	keyString = "'" + key + "'";

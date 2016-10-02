@@ -17,6 +17,7 @@
         "use strict";
         var scene = new THREE.Scene(),
             renderer = window.WebGLRenderingContext ? new THREE.WebGLRenderer() : new THREE.CanvasRenderer(),
+	    //renderer = new THREE.SVGRenderer(),
             light = new THREE.AmbientLight(0xffffff),
             spot1, spot2, spot3, spot4, spot5, spots, camera, objects = [],
             plane, tetrahedron, cube, octahedron, dodecahedron, icosahedron,

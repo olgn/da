@@ -17,8 +17,14 @@ var app = express();
 //scripts routing
 app.use('/scripts',express.static(__dirname + '/node_modules/'));
 
+//js routing
+app.use('/js',express.static(__dirname + '/js/'));
+
 //content routing 
 app.use('/content',express.static(__dirname + '/content/'));
+
+//soundcloud callback html popu content
+app.use('/sc',express.static(__dirname + '/content/sc'));
 
 //angular app routing
 app.use('/ng',express.static(__dirname + '/ng'));
@@ -214,6 +220,71 @@ app.post('/newPoem',function(req,res){
 		};
 	});
 });
+
+
+//soundcloud post
+app.get('/bish', function(req, res) {
+	if (req.user) {
+		if (req.user.username == 'Bish') {
+			req.session.success = "Logged ya in, ya bish!"
+			soundcloud.initialize({
+				client_id: 'YOUR_CLIENT_ID',
+				redirect_uri: 'http://www.dimensionaladventurer.com/bish'
+			});
+			res.render('bish');
+		} else {
+			
+			req.session.error = 'Your login credentials are `not proppa`';
+			res.render('home');
+		}
+	} else {
+		res.render('home');
+	}
+})
+
+//============ stringGen ==============\\
+app.get('/nameBot', function(req, res) {
+	if (req.user) {
+		res.render('nameBot');
+	} else {
+		req.session.error = 'Not enough cred. Try logging in.';
+		res.render('home');
+	}
+});
+
+app.post('/nameBot', function(req, res) {
+	if (req.user) {
+		console.log(req.body);
+		funct.addWordToBag(req.body.word, function(err) {
+			if (err) {
+				req.session.error = 'Trouble adding word to the bag';
+				res.render('nameBot');
+			} else {
+				req.session.success = 'Its all money in the bag'
+				res.render('nameBot');
+			}
+		})
+	} else {
+		req.session.error = 'Not enough cred. Try logging in.';
+		res.render('home');
+	}
+
+})
+
+app.get('/wordBag', function(req, res) {
+	if (req.user) {
+		funct.getWordBag(function(err, wordBag) {
+			if(err) {
+				console.log(err);
+				res.render('nameBot');
+			} else {
+				res.json(wordBag);
+			}
+		})
+	} else {
+		res.render('home');
+	}
+})
 
 //===============PORT=================
 var server = app.listen(80, function() {
